@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 20px;
+        }
+
+        div{
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 20px;
+        }
+
+        #formu{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-top: 20px;
+            margin: auto;
+            padding: 20px;
+            width: 50%;
+        }
+        #tab{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: auto;
+            padding: 20px;
+            margin-top: 20px;
+            width: 50%;
+            
+        }
+
+        #btn{
+            width: 200px;
+            height: 40px;
+            padding: 10px;
+            border-radius: 30px;
+            margin-left: 30px;
+            font-weight: bold;
+        }
+
+        input{
+            padding: 3px;
+            height: 30px;
+            width: 250px;
+            border-radius: 10px;
+         
+        }
+
+
+
+
+       
+    </style>
+</head>
+
+<body>
+    <br>
+
+    <div id="formu">
+
+    <form action="" id="form">
+
+        <label for="">Name : </label><br>
+        <input type="text" id="fn">
+
+        <br><br>
+
+        <label for="">Email : </label><br>
+        <input type="email" id="email">
+        <br><br>
+        <label for="">Password : </label><br>
+        <input type="password" id="pswd">
+
+        <br><br>
+
+        <input type="submit" value="Submit" id="btn">
+
+    </form>
+
+</div>
+
+<div id="tab">
+    <table>
+
+        <tr>
+            <th>FirstName</th>
+            <td id="data1"></td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td id="data2"></td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td id="data3"></td>
+        </tr>
+
+    </table>
+</div>
+
+    <script src="./Form.js"></script>
+</body>
+
+</html>
